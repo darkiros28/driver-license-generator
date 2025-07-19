@@ -116,3 +116,4 @@ fun validateLicenseNumber(state: String, licenseNumber: String): Boolean {
     val regex = patterns[state]?.toRegex() ?: return false
     return regex.matches(licenseNumber)
 }
+./gradlew run
